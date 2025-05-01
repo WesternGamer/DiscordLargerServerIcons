@@ -33,56 +33,20 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-
+/* Larger server icons */
 .guilds_c48ade {
-    padding-right: 6px;
-}
-
-.tree_ef3116 {
+    scale: 125%;
+    margin-top: 174%;
+    margin-left: 11%;
     width: 80px;
 }
 
-.svg_cc5dd2 {
-    width: 58px;
-    height: 58px;
-    margin-left: 9px;
+/* Ensures server scroller goes to the very bottom */
+.scroller_ef3116 {
+    padding-bottom: 132% !important;
 }
 
-.expandedFolderBackground__48112{
-    width: 58px;
-}
-
-.wrapper_cc5dd2 {
-    width: 58px;
-    height: 48px;
-}
-
-.folderIcon__48112{
-    width: 58px;
-    height: 58px;
-}
-
-.wrapper__48112 > .stack_dbd263{
-    display: inline !important;
-}
-
-.wrapper__48112 > .stack_dbd263 > div {
-    height: 55px;
-}
-
-.expandedFolderIconWrapper__48112 > svg {
-    scale: 145%;
-}
-
-.upperBadge_cc5dd2 {
-    margin-top: 3px;
-    margin-right: 1px;
-    scale: 120%;
-}
-
-.folderIcon__48112 > .wrapper_cc5dd2 > svg {
-    margin-left: 4px;
-    margin-top: 0px;
-    width: 68px;
-    height: 68px;
+/* Make folder icons bigger (This needs to be explictly done for some reason) */
+.folderIcon__48112 { 
+    scale: 150%;
 }
